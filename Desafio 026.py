@@ -6,3 +6,4 @@ n = str(input('Digite um nome para ser analisado : ')).upper()
 print('O Nome {} possui {} letras "A". '.format(n,n.count('A')))
 print('A letra "A" aparece pela primeira vez na posição {}!'.format(n.find('A')+1))
 print('A letra "A" aparece pela ultima vez na posição {}!'.format(n.rfind("A")+1))
+#O "+1" foi colocado para se adequar à posição. 
