@@ -9,5 +9,5 @@ r = int(input('Digite o número que você tentou adivinhar : '))
 if r == a:
    print('Parabéns, você acertou! O número é {}'.format(a))
 else:
-   print('Infelizmente você errou! Tente novamente depois palindromo.')
+   print('Infelizmente você errou!O número era {}, e não {}! Tente novamente depois palindromo.'.format(a,r))
    
